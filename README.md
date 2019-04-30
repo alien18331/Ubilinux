@@ -1,5 +1,11 @@
 # ubuntu  
   
+## GPIO  
+> sudo apt-get install python3 python-dev python3-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-pip    
+> mkdir gpio  
+> git clone https://github.com/emutex/RPi.GPIO.git  
+> sudo python3 setup.py install  
+
 ## spyder  
 > sudo pip3 install spyder  
 > sudo apt install spyder3  
