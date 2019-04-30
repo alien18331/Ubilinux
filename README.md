@@ -18,11 +18,14 @@
 #安裝必要軟件  
 > sudo apt-get install build-essential  
 > sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev  
-> sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev  
+> sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev  
+(fail libjasper-dev) 
   
 > sudo apt-get -y install build-essential checkinstall cmake pkg-config yasm  
 > sudo apt-get -y install git gfortran  
-> sudo apt-get -y install libjpeg8-dev libjasper-dev libpng-dev  
+> sudo apt-get -y install libjpeg62-turbo-dev libjasper-dev libpng-dev  
+(fail libjasper-dev libpng-dev)  
+
 > sudo apt-get -y install libtiff5-dev  
 > sudo apt-get -y install libtiff-dev  
 > sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev  
