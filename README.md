@@ -7,6 +7,7 @@
 > sudo python3 setup.py install  
 
 ## spyder  
+> sudo apt install pyqt5-dev python3 python3-pyqt5.qtquick qml-module-qtquick2 git (for rpi)  
 > sudo pip3 install spyder  
 > sudo apt install spyder3  
 
